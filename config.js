@@ -29,7 +29,7 @@ const setting = JSON.parse(fs.readFileSync('./setting.json'))
     private: '*KHUSUS PRIVATE CHAT*',
     bot: '*KHUSUS PENGGUNA NOMER BOT*',
     wait: '*SABAR SEDANG DI PROSES ...*',
-    done: '*DONE NGAB 🤗*',
+    done: '*DONE ✓',
     }
     global.thumb = fs.readFileSync('./media/ryuu.jpg')
     
