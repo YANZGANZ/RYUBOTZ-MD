@@ -12,7 +12,7 @@ exports.notNum = (q) => {
 
 // Message Saat Fitur Error
 exports.fiturError = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ Fitur Sedang Error ⚠️`
 }
 
 // Message Sukses Menambahkan User Ke Grup
@@ -27,22 +27,22 @@ exports.kickUser =() => {
 
 // Message Promote User
 exports.proMote =() => {
-	return `Sukses Menaikkan Jabatan User ☑️`
+	return `Sukses Menaikkan Jabatan User ✓`
 }
 
 // Message Demote User
 exports.deMote =() => {
-	return `Sukses Menurunkan Jabatan User ☑️`
+	return `Sukses Menurunkan Jabatan User ✓`
 }
 
 // Message Ubah Nama Grup
 exports.namaGrup =(text) => {
-	return `Sukses Mengubah Nama Group Menjadi ${text} ☑️`
+	return `Sukses Mengubah Nama Group Menjadi ${text} ✓`
 }
 
 // Message Ephermal On
 exports.epOn =() => {
-	return `Sukses Menghidupkan Ephermal/Pesan Sementara Di Group Ini ☑️`
+	return `Sukses Menghidupkan Ephermal/Pesan Sementara Di Group Ini ✓`
 }
 
 // Message Ephermal Off
